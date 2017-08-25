@@ -1,4 +1,7 @@
 # Golang
+#### Linux Git no Password
++  (1)`git config --global user.name "your name"`
++  (2)`git config --global user.email "your_email"`
 Golang 入门学习
 ## 手动安装新的稳定版本
 1.  下载地址：http://www.golangtc.com/download
