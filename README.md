@@ -4,11 +4,13 @@ Golang 入门学习
 ## 手动安装新的稳定版本
 1.  下载地址：http://www.golangtc.com/download
 2.  把安装包解压到/opt/目录下
-    ```bash
+ 
+   ```bash
     sudo tar -C /opt/ -xzf go1.8.linux-amd64.tar.gz
     ```
 3.  配置go的环境变量
     +   `vim /etc/profile`
+
         ```bash
         export GOPATH=/home/www/gopath 
         export GOROOT=/usr/local/go
@@ -20,6 +22,7 @@ Golang 入门学习
         ```
     +   重新加载 profile 文件：`source /etc/profile`    
 4.  查看Go环境变量：`go env` 
+
     ```bash
     GOARCH="386"
     GOBIN="/opt/go/bin/"
@@ -49,6 +52,7 @@ Golang 入门学习
     +   `GOPATH` 是作为编译后二进制的存放目的地和import包时的搜索路径
         +   GOPATH目录结构
 6.  代码目录结构规划
+
     ```bash
     cd $GOPATH
     mkdir src
