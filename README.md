@@ -1,11 +1,10 @@
 # Golang
 Golang 入门学习
-# 安装
 ## 手动安装新的稳定版本
 1.  下载地址：http://www.golangtc.com/download
 2.  把安装包解压到/opt/目录下
  
-   ```bash
+    ```bash
     sudo tar -C /opt/ -xzf go1.8.linux-amd64.tar.gz
     ```
 3.  配置go的环境变量
