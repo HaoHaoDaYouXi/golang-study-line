@@ -4,6 +4,9 @@
 
 * [Hello.go](http://www.cnblogs.com/tinywan/p/6928300.html)
 
+## Demo代码列表
+* [通道chan](/basic-01/basic_channel_01.go)
+
 ## 代码列表
 * [Golang入门教程（一）GOPATH与工作空间（Windows）](http://www.cnblogs.com/tinywan/p/6425647.html)
 * [Golang入门教程（二）Ubuntu16.04下安装golang ](http://www.cnblogs.com/tinywan/p/6928300.html)
