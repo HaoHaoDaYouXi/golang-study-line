@@ -6,6 +6,7 @@
 
 ## Demo代码列表
 * [通道chan](/basic-01/basic_channel_01.go)
+* [golang语言中map的初始化及使用](/basic-01/basic_map_02.go)
 
 ## 代码列表
 * [Golang入门教程（一）GOPATH与工作空间（Windows）](http://www.cnblogs.com/tinywan/p/6425647.html)
