@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 
-	// [1] 声明map 语法：var map_variable map[key_data_type]value_data_type
-	var map1 map[string]string
+	// [1] 使用make函数创建 var slice1 []type = make([]type, len)
+	var slice1 string = make([]string,10)
 
 	/* 使用make函数创建一个非nil的map(创建集合)，nil map不能赋值 */
 	map1 = make(map[string]string)
