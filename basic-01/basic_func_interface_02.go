@@ -39,9 +39,11 @@ func (this *Benz) NameGet() string {
 func (this *Benz) Run(n int) {
 	fmt.Printf("Benz is running of num is %d \n", n)
 }
+
 func (this *Benz) Stop() {
 	fmt.Printf("Benz is stop \n")
 }
+
 func (this *Benz) ChatUp() {
 	fmt.Printf("ChatUp \n")
 }
@@ -63,5 +65,4 @@ func main() {
 	fmt.Println(car.NameGet()) //大奔
 	car.Run(2)                 //Benz is running of num is 2
 	car.Stop()                 //Benz is stop
-
 }
